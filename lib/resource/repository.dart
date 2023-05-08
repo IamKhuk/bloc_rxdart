@@ -6,11 +6,11 @@ import '../model/example_model.dart';
 import 'api_provider.dart';
 
 class Repository {
-  final pharmacyApiProvider = ApiProvider();
+  final apiProvider = ApiProvider();
   DatabaseHelper databaseHelper = DatabaseHelper();
 
   Future<List<ExampleModel>?> fetchExample() =>
-      pharmacyApiProvider.fetchExample();
+      apiProvider.fetchExample();
 
   Future<List<ExampleModel>> databaseItem() => databaseHelper.getProduct();
 }

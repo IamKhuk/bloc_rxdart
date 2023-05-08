@@ -1,8 +1,6 @@
 import 'dart:async';
-
 import 'package:bloc_rxdart/bloc/example_bloc.dart';
 import 'package:connectivity/connectivity.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
